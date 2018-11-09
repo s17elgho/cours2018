@@ -1,195 +1,144 @@
-# **Deep-Web/Dark-Web**
+# ELU 525: Exploration du web
 
-# Partie théorique:
+# Cours sur le web profond
 
-Le Web se compose principalement de trois parties différentes : le *dark Web*, le Web profond (*deep Web* en anglais) et le Web visible.
+## Partie théorique:
 
-**1- Qu'est-ce que le Web visible ?**
-* Lorsque vous tapez une recherche sur un moteur de recherche classique (Google, Yahoo, Lilo, Ecosia, ...), vous parcourez en fait ce que l'on appelle le Web surfacique, ou Web visible. Le Web surfacique est la partie du Web qui est accessible en ligne et indexable par les robots d’indexation  de ces moteurs de recherche. Un moteur de recherche classique indexe environ 9 à 10% du Web entier. Ce sont donc ces 10% qui constituent le Web visible.
+### I- GENERALITES SUR LE WEB:
+**I.1- LE WEB SURFACIQUE:**
+* Le web surfacique désigne la partie du web accessible au grand public.Il contient toutes les pages web indexées par les moteurs de recherche classiques.Néanmoins, il ne représente que 10% de l’information qu’on peut trouver sur Internet.Selon une statistique datée du 14 Juin 2015 , 14.5 milliards de pages web sont indexées par Google.
 
-**2- Qu'est-ce que le Web caché (*deep Web*) ?**
-* C'est la partie du Web accessible en ligne, mais non indexée par les moteurs de recherche classiques. Ces derniers ne permettent donc pas d'accéder à des sites appartenant au Web profond. Il constitue les 90% du Web entier. 
-* Le dark Web est une partie de ce Web profond.
+**I.2- LE WEB PROFOND OU DEEP WEB:**
+* Le web profond est la partie du web inaccessible par les moteurs de recherche classiques, c’est-à-dire non indexée ou dont le contenu est d’accès limité. On cite par exemple les sites web accessibles via une connexion sécurisée comme les transactions bancaires sur des comptes en ligne ou bien les vidéos à la demande sur Netflix.
 
-
-**3- Le concept de *dark Net***
-
-* Le *dark Web* est composé de *dark Net*.
-
-* Un darknet est un réseau superposé (ou "réseau overlay") qui utilise des protocoles spécifiques intégrant des fonctions d'anonymisation. Certains se limitent à l'échange de fichiers, d'autres permettent la construction d'un écosystème anonyme complet (Web, blog, mail, irc) comme Freenet.
-
-* Les *dark nets* sont distincts des autres réseaux pair à pair (*peer-to-peer* en anglais) distribués car le partage y est anonyme (c'est-à-dire que les adresses IP ne sont pas partagées publiquement) et donc les utilisateurs peuvent communiquer avec peu de crainte d'interférence gouvernementale ou d'entreprises. Pour ces raisons, les Dark Nets sont souvent associés avec la communication de type dissidence politique et les activités illégales (ex. : cybercrime). Plus généralement, un *dark Net* peut être utilisé pour décrire tout type de sites non-commerciaux sur Internet, ou pour référer à toutes les technologies et communications web « underground », plus communément associées aux activités illégales, dissidentes. Le *dark Web* peut aussi être utilisé pour des raisons éthiques, par des lanceurs d'alerte par exemple.
-
-**4- Différences entre *dark Web* et *deep Web***
-
-* L’appellation « Web Profond » ou « Deep Web » désigne les données d’Internet qui ne sont pas indexées par les moteurs de recherche standards tels que Google, Bing, Qwant ou Yahoo. En effet, ces moteurs ne peuvent pas les trouver car ils ne sont pas techniquement capables d’accéder à ces espaces fermés totalement séparés du Web que l’on connait. Et sans *crawl* et indexation, impossible de rechercher par le biais de ces moteurs.
-* Le terme « Dark Web » quant à lui, désigne une partie bien particulière du Web profond : très intriguant pour certains, c’est le morceau d’Internet souvent présenté comme une zone de non droit, où tous les criminels se donnent rendez-vous pour leurs activités illicites (drogues, armes, tueurs à gage, et autres trafics en tout genre), dans un anonymat total et fort. Ce dernier est bien plus petit que le Deep Web et n’en représente qu’une infime partie. Pourtant, il fait bien plus souvent parler de lui ! Il faut bien faire la différence entre le deux termes : le *Deep Web* (l'Internet non indexé) et le *Dark Web* (les bas fonds obscurs de l'Internet).
-
-![](https://www.undernews.fr/wp-content/uploads/2015/04/deep-web-wiki.jpg)
-
-
-
-**5- Le référencement :**
-
-#### *Pourquoi certains sites sont-ils non indexés ?*
-
-
-La non-indexation de certains sites web peut être due :
-
-* au format des fichiers web qui sont différents du format HTML (HyperText Markup Language) ; 
-* au fait que les fichiers très volumineux ne sont pas ou partiellement indexés par les moteurs de recherche classiques ; 
-* au fait que certains sites nécessitent forcément une authentification par un identifiant et un mot de passe avant d’accéder à son contenu réel ; 
-* à une interdiction d’accès par des robots d’indexation au site, mise en place par l’administrateur du site web ; 
-* au développement de pages web grâce à des balises HTML spéciales rendant difficile leur indexation ; 
-* à la génération automatique de certaines pages (pages dynamiques) suite à une requête bien précise de l’internaute ; 
-* au manque de liaison correcte (URL, Uniform Resource Locator) entre les pages web d’un même site; 
-* à l’utilisation du langage JavaScript  qui est incompris par les robots d’indexations, pour lier les pages web d’un même site entre elles.
-
-**6- L'anonymat:**
-Ce terme provient du grec ανώνυμος *anonymos* (« sans nom »). En informatique, il s'agit des techniques compliquant l'identification des machines qui ont reçu ou transmis de l'information sur la toile ; en droit il s'agit des procédures destinées à camoufler l'auteur d'une transaction Internet ; au niveau social il s'agit d'un mode de communication entre citoyens plus difficile à surveiller, ce qui relance des enjeux de société en matière de vie privée et informatique mais aussi de cybercrime. À ce jour, l'anonymat total sur l'Internet est et semble être impossible. On ne peut que rendre plus difficile l'identification d'un internaute.
-#### *VPN:*
-
-* Définition : 
-Un VPN (Virtual Private Network) permet de relier des machines entre elles, de façon confidentielle. Un tunnel de communication, ou chemin virtuel, permet alors d'installer un lien sécurisé et crypté.
-
-* Intérêt des VPN :
-Utiliser un VPN permet aux utilisateurs de garder leur identité cachée. En effet, un VPN permet de ne pas dévoiler son adresse IP ainsi que ses informations personnelles, telles que les mots de passe, sur le Deep Web. Notre adresse IP va être remplacée par une adresse IP étrangère délivrée par un serveur situé à l'étranger. Ainsi, lorque l'on surfe sur internet, seule cette adresse IP est visible.
-Un VPN peut également être utilisé d'un point de vue professionel car il permet de réaliser du travail à distance, en accédant à un réseau interne depuis une autre machine.
-
-* Principe de fonctionnement:
-Toutes les données que vont s'échanger les utilisateurs seront donc cryptées, à l'aide de différents protocoles(PPTP, L2TP, ...) et passeront par un tunnel sécurisé reliant leurs machines. Toutefois, l'utilisation d'un VPN ne permet pas d'être totalement anonyme sur le Web, les fournisseurs de VPN pouvant toujours avoir accès à nos données personnelles.
-
-Pour plus de détails quant à l'utilisation des VPN pour votre sécurité, nous vous conseillons de vous référer à ce [cours](https://github.com/explorweb/cours2018/blob/master/docs/cours/securite.md#la-s%C3%A9curit%C3%A9-sur-le-web).
-
-
-#### *TOR*:
-
-
-* TOR : The Onion Rooter
-    * Tor est un réseau informatique superposé mondial et décentralisé. Il se compose d'un certain nombre de serveurs, appelés nœuds du réseau et dont la liste est publique. Ce réseau permet d'anonymiser l'origine de connexions TCP. Cela peut entre autres servir à anonymiser la source d'une session de navigation web ou de messagerie instantanée. Cependant, l'anonymisation du flux n'est pas suffisante, car l'application peut potentiellement transmettre des informations annexes permettant d'identifier la personne : c'est pourquoi le projet Tor développe également un navigateur web basé sur Firefox, Tor Browser, ainsi que d'autres applications spécialement modifiées pour préserver l'anonymat de leurs usagers. L'implémentation de référence du protocole s'appelle *tor*, c'est un logiciel libre sous licence BSD révisée.
-
-    * Utilisation de serveurs volontaires par lesquels les paquets passent pour camoufler les chemins empruntés.
-    * Sur le réseau Tor, les paquets prennent un chemin aléatoire. Le client négocie un ensemble de clés de chiffrement pour chaque noeud emprunté par les paquets.
-![Fonctionnement de Tor 1](https://www.torproject.org/images/htw1.png)
-![Fonctionnement de Tor 2](https://www.torproject.org/images/htw2.png)
-![Fonctionnement de Tor 3](https://www.torproject.org/images/htw3.png) 
-* Le *deep Web* contient le *dark Web*. Pour accéder au *deep Web*, il faut donc prendre des précautions particulières pour éviter les virus susceptibles de récupérer vos données personnelles et éviter les sites malicieux en provenance du *dark Web* :
-    * Utiliser un VPN (cf partie partie précédente).
-    * Utiliser un antivirus. 
-    * Utiliser un pare-feux. Ce dernier permet de gérer et de définir les paquets qui ont le droit de circuler dans un réseau.
-* GNUnet:
-    * GNUnet est un réseau P2P informatique. Une première mise en œuvre au-dessus de la couche réseau permet un partage de fichiers anonyme et résistant à la censure. 
-* I2P
-   * I2P (Invisible Internet Project) est un réseau anonyme, offrant une simple couche logicielle que les applications peuvent employer pour envoyer de façon anonyme et sécurisée des messages entre elles. La communication est chiffrée d'extrémité à extrémité.
-   
-
-
----
-   
-# Partie Pratique : 
-### Prérequis
-
-### Comment naviguer dans le deep web avec Tor ?
-Vérifions notre adresse IP, pour ce faire nous nous rendons sur le site www.adresseip.com
-![](https://i.imgur.com/0TCEtNQ.png)
-
-Passons maintenant à quelques prérequis pour le TP :
-
-1. [Installer TOR](https://www.torproject.org/download/download-easy.html.en)
-2. [Installer un VPN](https://fra.windscribe.com/download)
-https://www.youtube.com/watch?v=FRXCgD5h5K4
-3. Vérifiez la fiabilité de votre antivirus (comme Norton internet security et Avast internet security )
-4. [Télécharger un Pare-Feu](https://peerblock.fr.uptodown.com/windows/telecharger)
-5. [Créer son propre VPN](https://www.supinfo.com/articles/single/3939-creer-son-propre-serveur-vpn-avec-nas-synology), ou bien utilisez [openvpn](https://doc.ubuntu-fr.org/openvpn), ou encore [hamachi](https://doc.ubuntu-fr.org/hamachi)
-
-
-A présent nous avons accès au réseau Tor. Nous allons tout d’abord nous assurer que notre adresse IP est bien masquée. Pour ce faire rendons-nous une fois de plus dans le site www.adresseip.com :
-
-![](https://i.imgur.com/zpmy49V.png)
-
-Vous remarquez que cette fois-ci notre adresse IP est 188.138.1.229, si on essaie de me localiser via cette adresse, on va me localiser géographiquement dans un pays autre que celui où je me trouve réellement, et cette adresse IP change continuellement presque toutes les secondes, aussi longtemps que nous sommes dans le réseau Tor. Ceci permet par exemple qu’un hacker ne nous localise ou suive notre activité sur internet. Ainsi, en demandant une fois de plus notre adresse IP au site www.adresseip.com au bout de quelques secondes, comme le montre la capture suivante, 
-
-![](https://i.imgur.com/QpOfpIp.png)
-
-nous remarquons que notre adresse IP est différente de celle que l’on avait précédemment.
+ *Pourquoi certains sites sont indexés et d'autres non ?*
  
-Une fois qu’on s’est assuré de notre anonymat, nous démarrons notre VPN :
+ * Pour qu'un site internet soit indexé par un moteur de recherche, il faut qu'il respecte des normes. Ces normes peuvent intervenir sur le format, le contenu et l'accessibilité des robots sur les sites. Et pour que le site en question soit indexé il faut qu'il respecte ces normes instaurées par les moteurs de recherche afin de figurer dessus.
+ 
+ * Certains sites ne sont pas indexés car le format des fichiers web est différents du HTML (HyperText Markup Language)ou bien les fichiers sont très volumineux et alors ne sont pas pris en compte. De plus si un robot d'indexation ne peut pas avoir accès au contenu de la page, cette dernière ne pourra être indexée. Il peut aussi y avoir des problèmes dans l'écriture de l'URL (une syntaxe incorrecte ou autres ).
+ 
+ * Tous ces paramètres entrent en compte lors d'une indexation et s'ils ne sont pas respectés, le site en question ne pourra pas être indexé et son contenu ne figurera pas sur le moteur de recherche.
 
-![](https://i.imgur.com/Yn3MXEV.png)
+**I.3- LE WEB OBSCURE OU DARK WEB:**
+* Le dark web est le contenu du web qui existe sur des réseaux superposés appelés  darknets. Ce sont des petits réseaux pair à pair en plus des réseaux Tor, I2P et autres gérés par des entités privées dont le partage est anonyme (les adresses IP ne sont pas partagées publiquement). Ces réseaux utilisent des protocoles spécifiques intégrant des fonctions d’anonymisation. Le dark web constitue une petite partie du web profond.Le contenu du dark web est divers mais souvent illégal: cybercrime,vente et achat de biens ou services illégaux,partage de fichiers confidentiels,...etc .
+  
+* Il faut bien faire la différence entre le deux termes : le Deep Web (l’Internet non indexé) et le Dark Web (les bas fonds obscurs de l’Internet).
+  
+![](https://i0.wp.com/www.himanshutech.com/wp-content/uploads/2018/06/Deep-Web-and-Dark-Web-Explained.png?resize=696%2C464&ssl=1)
 
-Ensuite on démarre notre pare-feu PeerBlock : 
+### II- LE DEEP WEB OU WEB PROFOND:
+**II.1-  COMMENT ACCEDER AU DEEP WEB?**  
 
-![](https://i.imgur.com/dVfXNQO.png)
+*VPN:*  
 
-Et nous vérifions que notre antivirus est actif.
+![](https://upload.wikimedia.org/wikipedia/commons/0/0f/VPN_site-to-site.jpg)  
+* Un réseau privé virtuel, abrégé VPN – Virtual Private Network , est un système permettant de créer un lien direct entre des ordinateurs distants, en isolant ce trafic. Toutes les données que vont s’échanger les utilisateurs seront donc cryptées, à l’aide de différents protocoles(PPTP, L2TP, …) et passeront par un tunnel sécurisé reliant leurs machines.
+
+ * Intérêt des VPN : Utiliser un VPN permet aux utilisateurs de garder leur identité cachée. En effet, un VPN permet de ne pas dévoiler son adresse IP ainsi que ses informations personnelles, telles que les mots de passe, sur le Deep Web. Notre adresse IP va être remplacée par une adresse IP étrangère délivrée par un serveur situé à l’étranger. Ainsi, lorsque l’on surfe sur internet, seule cette adresse IP est visible. Un VPN peut également être utilisé d’un point de vue professionnel car il permet de réaliser du travail à distance, en accédant à un réseau interne depuis une autre machine.Toutefois, l’utilisation d’un VPN ne permet pas d’être totalement anonyme sur le Web, les fournisseurs de VPN pouvant toujours avoir accès à nos données personnelles.[4]
+
+*Proxy:*  
+
+*	C’est un serveur qui fait les requêtes sur Internet. L’utilisation d’un service proxy permet de ne pas utiliser votre propre adresse IP et donc de ne pas vous identifier.Si on établit une connexion à un proxy par un VPN , le contenu des  paquets qu’on lui envoie est inexploitable par une personne qui décide de les intercepter puisque le VPN chiffre le contenu des paquets.  
+
+*Tor:*
+* Tor est un réseau informatique superposé mondial et décentralisé. Il se compose d’un ensemble de proxies, appelés relais . Ce réseau permet d’anonymiser les paquets TCP .  
+Dans un réseau Tor, la requête d’un internaute quitte son ordinateur et passe par plusieurs autres ordinateurs présents dans le même réseau et utilisant Tor jusqu’au serveur à qui est adressé la requête. Il est le seul à pouvoir déchiffrer le contenu cette requête .C’est le principe du routage en oignon (qui donne son nom à Tor).Contrairement à un réseau normal, les paquets tor prennent un chemin aléatoire. Le client négocie un ensemble de clés de chiffrement pour chaque nœud emprunté par les paquets.Les figures ci-dessous schématisent le fonctionnement de Tor et le fonctionnement d’un réseau normal:  
+Réseau normal:  
+![](https://www.supinfo.com/articles/resources/171562/3109/3.png)  
+Réseau Tor:  
+![](https://www.supinfo.com/articles/resources/171562/3109/4.png)  
+* Tous les échanges entre relais Tor  sont sécurisés et cryptés. Tor propose également à ses utilisateurs un ensemble de services cachés sur internet en masquant l’identité (adresse IP, …) du serveur qui les héberge ; ce dernier recevra de Tor une adresse avec l’extension ".onion" (comme par exemple "nomdusite.onion") et ne pourra être accessible que par des internautes du réseau Tor. L’accès d’utilisateurs à un service web caché se fait selon un protocole défini par Tor. 
+* Pour accéder au réseau Tor il faut utiliser le navigateur du même nom : Tor Browser. Le logiciel Tor Browser permet d’aller sur le réseau Tor, et donc de consulter les sites du deep web.  
+
+*Fonctionnalités de TOR:*  
+
+Tor propose à ses utilisateurs des fonctions axées sur la vie privée:  
+
+1. Suppression des cookies après chaque session – Tor supprime tous  les cookies d’une session juste après sa fermeture.Cette suppression s’assure de ne laisser aucune trace de vos navigations.  
+2. Des niveaux de sécurité: Différents  niveaux de sécurité sont conçus afin de  neutraliser les attaques contre votre navigateur.  
+3. Une nouvelle identité :Il est possible de changer totalement votre session de navigateur. Si vous utilisez d’utiliser cette fonction, le navigateur TOR va redémarrer en effaçant toutes les informations de votre navigation.  
+4. Accéder à des sites en .onion :C’est l’une des particularités de TOR. Il propose des sites avec une adresse en .onion accessibles uniquement via le navigateur TOR. 
+
+### III-LE CONTENU DU DEEP WEB:  
+
+* Cette couche internet, possède sa propre monnaie(les Bitcoins)qui est un type de paiement "peer To Peer",immédiat et sécurisé, ses propres codes(Confiance) et ses propres modes d’accès (TOR).Afin d’atteindre la majorité des sites non référencés, il faut également passer par TOR, un navigateur anonyme. Aussi, il faut connaître à l’avance les adresses que l’on souhaite visiter qui ressemblent souvent à cela :kpvz7kizv5agwt35.onion . Parmi ces pages on retrouve des plateformes de vente en toute forme ( drogue, armes...) et certaines personnes proposent des services (assassinats...).
+Tout au long de la recherche on peut souvent tomber sur des plateformes de e-commerce comme Silkroad.
+Tout comme Amazon Marketplace, il suffit de créer un compte sans informations personnelles, ensuite laisser le moteur de recherche remuer la base de données des différents produits mis en ligne par les vendeurs. On pourra facilement repérer le produit qui nous intéresse.
+Par exemple, il est possible de choisir parmi les quelques milliers de drogues proposées : hash, héroïne, cocaïne ou LSD… Tout d’abord il faut se mettre en relation avec le vendeur, ensuite, lui envoyer l’adresse de livraison cryptée, il sera la seule personne en mesure de lire et enfin lui payer en Bitcoins : une monnaie 100% virtuelle développée par un japonais « Satoshi Nakamoto ».  
 
 
-A présent nous pouvons commencer notre exploration du web invisible.
+![](https://upload.wikimedia.org/wikipedia/en/4/42/Silk_Road_Marketplace_Item_Screen.jpg)  
 
-Dans le *deep web*, pour naviguer en évitant au maximum les sites potentiellement dangereux il existe un site que nous qualifierons de « carte de navigation » ou « de petit annuaire du deep web »: le Hidden Wiki. Le Hidden Wiki est le « wikipédia » du deep web, il recense quelques liens pour accéder aux sites cachés du web. Le Hidden Wiki est un site tout à fait essentiel lorsque l’on souhaite explorer le deep web, il permet d’éviter que l’on accède malencontreusement à des sites indésirables.
+![](http://www.thehiddenwiki.net/wp-content/uploads/2013/05/silk-road.jpg)  
 
-Pour aller sur le Hidden Wiki, nous n’allons pas entrer au niveau de la barre des titres  de notre navigateur une URL de la forme http://www.nomdusite.domaine comme nous le ferions dans un navigateur classique, mais plutôt une URL constituée d’une combinaison de lettres et de chiffres (n’ayant pas forcément une signification littérale) suivi de ".onion". Ceci est dû au fait que le réseau Tor affecte lui-même une adresse aux serveurs fournissant des services de site web caché, donc le nom de l’URL ne donne la plupart du temps aucune indication sur le site que l’on visite. 
+* Silkroad une plateforme d’e-commerce appartenant au Deep Web pose un gros problème aux forces de l’ordre vue que premièrement il n’y a pas de trace postale : adresse cryptée connue que par le marchand, deuxièmement il n’y a pas de trace digitale : Tor presque intraçable et enfin et surtout il n’y a pas de trace de transaction monétaire : les bitcoins passent de compte en compte sans arrêt et sont impossible à suivre.
+Les fondateurs de Silkroad ont décidé d’ouvrir the Armory, car comme bons entrepreneurs, ils cherchent à se diversifier. Mêmes principes les vendeurs proposent dans cette plateforme des biens qui sont des armes.
+On peut donc selon les stocks acheter un AK-47, que l’on pourra se faire livrer par la poste, ou en dead-drop (on donne des références GPS et le vendeur pose/enterre/cache le produit aux coordonnées).  
+* Le deep Web ne se limite pas uniquement sur Silkroad, mais on fait assez de découvertes en passant de lien en lien.
+on peut également trouver de petites annonces de tueurs  avec des tarifs différenciés selon les tâches demandées et selon le type de personne : prenons comme exemple 10 000 euros pour une personne normale, 50 000 pour les politiciens...de plus, on peut acheter des numéros de cartes bancaires ou de “clones” avec le code PIN  dans le but de l’utiliser en magasin ou pour des retraits.  
+En outre, on peut également acheter un diplôme: avec inscription dans la base de données de l’école concernée, faire des faux papiers, faire disparaître une personne de tout base de donnée (de son compte en banque, de la sécurité sociale)...   
 
-Pour se rendre sur le Hidden Wiki, nous entrons l’adresse « zqktlwi4fecvo6ri.onion » dans la barre des titres de notre navigateur Tor Browser et nous appuyons sur la touche « Entrée » de notre clavier. Le navigateur nous ouvre une page où est présent  un lien (comme le montre la capture ci-dessous), qui nous permettra d’accéder au Hidden Wiki :
+## Aspect juridique du deep web :  
+
+L'anonymat protège la vie privée et la liberté fondamentale des utilisateurs mentionnées dans le code civil(article 9) et la Convention européenne des droits de l’homme (article 8).Ainsi, l'utilisation du deep web est tout à fait légitime et n'est pas à l'origine illicite.Les dissidents ou les défenseurs de droits s'y rendent pour communiquer librement dans des Etats qui limitent la liberté d'expression.
+Néanmoins, les lois sont transgressées au moment où on achète des biens ou des services illicites sur cette plateforme.Par ailleurs, avant d'effectuer un achat en Bitcoin, il faut s'assurer que les exigences réglementaires sont respectées.Les lois concernant le commerce de données par des moyens illicites, le vol de données et leur usage frauduleux sont aussi applicables sur le deep web.  
+N'oubliez pas que sur le deep web il y a du bon mais aussi le pire, donc soyez extrêmement prudent, patient et choisissez bien les sites que vous souhaitez visiter. Sur le deep web **vous êtes seul responsable de vos actes**. 
+
+## Partie pratique:
+
+Dans cette partie, vous allez apprendre à naviguer dans le deep web.  
+Voici les prérequis pour ce TP:  
+
+* Installer un VPN(comme [Hotspot Shield](https://www.hotspotshield.com/fr/) ou [CyberGhost](https://www.cyberghostvpn.com/fr_FR/?media_source=google_adwords&campaign=France-Search-Brand&adgroup=CyberGhost&keyword=cyberghost&matchtype=e&extension=&gclid=Cj0KCQiA2o_fBRC8ARIsAIOyQ-l1BRIpVVZZl-P2vQV1LK1jIO0Jc_tCvUmhgtZW7szXtRfBvdzBZpoaAqHqEALw_wcB)).Ce VPN assurera une confidentialité totale en masquant votre adresse IP et toutes vos données personnelles.
+* Installer un antivirus si ce n'est pas déjà fait ([Norton internet security ](https://support.norton.com/sp/fr/fr/home/current/solutions/kb20090708112600EN_EndUserProfile_fr_fr))
+* Télécharger un Pare-Feu ([Peer block](https://peerblock.fr.uptodown.com/windows/telecharger)) qui permettera de bloquer des connexions à votre ordinateur provenant d’adresses IP suspectes  
+* Installer [Tor Browser](https://www.torproject.org/download/download-easy.html.en)  
+Sur votre navigateur habituel, vérifiez votre adresse IP.Pour ce faire, rendez-vous sur le site https://www.whatismyip.com
+![](https://screenshots.firefox.com/UXRhOls1Pj08lFKm/www.whatismyip.com). Il existe d'autres sites qui permettent d'afficher votre adresse IP.  
+
+Maintenant que vous avez téléchargé et installé tous les logiciels, vous allez démarrer votre Tor browser.  
+Vous vous renderez sur le même site qu'avant depuis Tor pour vérifier que __votre adresse IP est masquée__.  
+Si l'adresse IP indiquée  par le site est différente de votre vraie adresse, démarrez votre VPN et votre pare-feu.L'antivirus doit être actif.  
+A présent, vous êtes prêts pour naviguer dans le deep web :wink:  
+
+La principale adresse sur Tor est bien __The Hidden Wiki__. Du même genre que Wikipedia – à l’exception du contenu – The Hidden Wiki vous propose des liens vers différents sites du réseau TOR.C'est un site très essentiel lorsque l’on souhaite explorer le deep web car il permet d’éviter que l’on accède malencontreusement aux sites indésirables.  
+Pour aller sur le Hidden Wiki, vous n’allez pas entrer au niveau de la barre des titres  de notre navigateur une URL de la forme http://www.nomdusite.domaine comme d’habitude dans un navigateur classique, mais plutôt une URL constituée d’une combinaison de lettres et de chiffres suivi de .onion.  
+Pour se rendre sur le Hidden Wiki, *tapez* l’adresse « zqktlwi4fecvo6ri.onion » dans la barre des titres de Tor Browser et appuyez sur la touche « Entrée » de votre clavier. Le navigateur vous ouvre une page où est présent  un lien (comme le montre la capture ci-dessous), qui vous permettra d’accéder au Hidden Wiki :  
 
 ![](https://i.imgur.com/ZbN1BYR.png)
 
-Une fois que nous cliquons sur le lien « Hidden Wiki », nous sommes redirigés vers la page d’accueil du Hidden Wiki : 
+Une fois vous cliquez sur le lien « Hidden Wiki », vous êtes redirigés vers la page d’accueil du Hidden Wiki : 
 
 ![](https://i.imgur.com/EPGKXks.png)
 
-On y retrouve un ensemble de liens vers des sites du deep web classés par catégorie (services financiers, services commerciaux, réseaux sociaux, …). 
+Vous y retrouvez un ensemble de liens vers des sites du deep web classés par catégorie (services financiers, services commerciaux, réseaux sociaux, …). 
 
-Si nous essayons d’entrer l’URL qui permet d’accéder au Hidden Wiki dans un navigateur conventionnel (comme mozilla firefox, internet explorer, …), le navigateur ne trouvera pas la page désirée :
+Si vous essayez d’entrer l’URL qui permet d’accéder au Hidden Wiki dans un navigateur conventionnel (comme mozilla firefox, internet explorer, …), le navigateur ne trouvera pas la page désirée :
 
 ![](https://i.imgur.com/bv8Na1R.png)
 
-En parcourant la page d’accueil du Hidden Wiki, on trouve un lien vers l’un des meilleurs moteurs de recherche du deep web : Not Evil.
+En parcourant la page d’accueil du Hidden Wiki, vous trouverez un lien vers l’un des meilleurs moteurs de recherche du deep web : Not Evil.
 
 ![](https://i.imgur.com/eA35xhs.png)
 
-En cliquant dessus le navigateur nous redirige vers le moteur de recherche Not Evil :
+En cliquant dessus le navigateur vous redirige vers le moteur de recherche Not Evil :
 
 ![](https://i.imgur.com/4khXK8j.png)
 
-Lorsque nous effectuons une recherche sur le moteur de recherche Not Evil, par exemple le mot « deepweb », nous constatons que les liens vers les pages retournées par notre requête ont toutes pour extensions .onion : 
+Lorsque vous effectuez une recherche sur le moteur de recherche Not Evil, par exemple le mot « deepweb », vous constatez que les liens vers les pages retournées par notre requête ont toutes pour extensions .onion : 
 
 ![](http://3.bp.blogspot.com/-JX5_btlREns/Va4ZvAahw8I/AAAAAAAAAX8/NosP6vJPc14/s1600/c27.PNG
 )
 
 
-A présent vous savez comment explorer le deep web. Encore une fois, n'oubliez pas que sur le deep web il y a du bon mais aussi le pire, donc soyez extrêmement prudent, patient et choisissez bien les sites que vous souhaitez visiter. Sur le deep web **vous êtes seul responsable de vos actes**. 
-
----
-
-### Glossaire:
-* **Réseau superposé** : c'est un réseau informatique bâti sur un autre réseau. Les nœuds du réseau superposé sont interconnectés par des liens logiques du réseau sous-jacent.
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Network_Overlay.svg/330px-Network_Overlay.svg.png)
-> un exemple de réseau superposé
-* **Freenet** : c'est un réseau informatique anonyme et distribué construit sur Internet. Il vise à permettre une liberté d'expression et d'information totale fondée sur la sécurité de l'anonymat, et permet donc à chacun de lire comme de publier du contenu librement. Il offre la plupart des services actuels d'Internet.
-* **PPTP** : *Point-to-point tunneling protocol*, ou protocole de tunnel point-à-point.
-
- 
-
----
+A présent vous savez comment explorer le deep web!
+## Références ##  
+  1-Article sur Wikipédia: Le web surfacique disponible sur https://en.wikipedia.org/wiki/Surface_web  
+  2-Article sur Investopedia: Deep web disponible sur https://www.investopedia.com/terms/d/deep-web.asp  
+  3-Article sur Wikipédia:Darknets disponible sur https://en.wikipedia.org/wiki/Darknet#Uses   
+  4-Article sur wikipédia :VPN https://fr.wikipedia.org/wiki/R%C3%A9seau_priv%C3%A9_virtuel   
+  5-Tutoriel sur openclassrooms https://openclassrooms.com/fr/courses/2939276-surfez-incognito-sur-internet-avec-le-reseau-tor/2954671-vers-un-debut-danonymat-notion-de-proxy   
+  6-Le deep web https://www.supinfo.com/articles/single/3109-deep-web    
+  7-Fonctionnalités de Tor https://meilleurvpn.net/19119/navigateur-tor/  
+  8-COMMENT ACCEDER AU WEB INVISIBLE (DEEP WEB) EN TOUTE SECURITE http://jacquesgoueth.blogspot.com/2015/07/comment-acceder-au-web-invisible-deep.html  
   
-### Ressources et sources
-#### Références
-[La théorie du Darknet](https://www.chaire-cyber.fr/IMG/pdf/4.7la_theorie_du_darknet.pdf)
-[Tor project](https://www.torproject.org/)
-[Le principe du VPN](https://www.supinfo.com/articles/single/2460-principe-vpn)
-[Réseau privé virtuel VPN](http://www.frameip.com/vpn/)
-[Mooc-DeepWEBacademy](http://deepwebacademy.com/start/)
-[Quelques logiciels du deep web](https://www.supinfo.com/articles/single/4912--darknet-deep-web-darkweb)
-[Undernews](https://www.undernews.fr/anonymat-cryptographie/deep-web-quels-moteurs-de-recherche-pour-explorer-linvisible.html)
-[Blog-Jacquesgoueth](https://jacquesgoueth.blogspot.fr/2015/07/comment-acceder-au-web-invisible-deep.html)
-* Wikipedia :
-[réseau superposé](https://fr.wiktionary.org/wiki/r%C3%A9seau_superpos%C3%A9)
-[dark nets](https://fr.wikipedia.org/wiki/Darknet)
-[deep web](https://fr.wikipedia.org/wiki/Web_profond)
-[dark web](https://en.wikipedia.org/wiki/Dark_web)
-[anonymat](https://fr.wikipedia.org/wiki/Anonymat)
-[anonymat sur l'Internet](https://fr.wikipedia.org/wiki/Anonymat_sur_Internet)
-#### Pour aller plus loin
-* Un autre [tutoriel](https://openclassrooms.com/courses/surfez-incognito-sur-internet-avec-le-reseau-tor/une-adresse-ip-qui-en-dit-long-sur-vous), d'OpenClassrooms cette fois, qui détaille comment cacher votre adresse IP.
